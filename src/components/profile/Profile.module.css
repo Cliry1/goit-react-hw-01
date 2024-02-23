@@ -15,12 +15,13 @@
   border: 2px solid black;
   border-radius: 8px;
   outline: auto;
+  margin-bottom: 50px;
 }
 .profileStatListElem{
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 60px;
+  width: 100%;
   border-top: 2px solid rgb(86, 83, 83);
   background-color: lightgray;
 }

@@ -1,0 +1,42 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  overflow: auto;
+  margin: 0 auto;
+  border-spacing: 0;
+}
+td:first-child{
+  text-align: left;
+}
+tbody {
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 5px 25px;
+  border-top-width: 0;
+  border-left-width: 0;
+  width: 33.33%;
+}
+tr:nth-child(2n){
+  background-color: lightgray;
+}
+td:first-child::first-letter{
+  text-transform: uppercase ;
+}
+th:last-child,
+td:last-child {
+  border-right-width: 0;
+}
+
+tr:last-child td {
+  border-bottom-width: 0;
+}
+.tableHead{
+  background-color: rgb(37, 37, 37);
+  color: rgb(212, 210, 210);
+}
