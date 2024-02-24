@@ -1,6 +1,6 @@
-import css from "./FriendListItem.module.css"
+import css from "./FriendList.module.css"
 import clsx from "clsx";
-export default function FriendListItem({friends}) {
+export default function FriendList({friends}) {
 
 
   return (
